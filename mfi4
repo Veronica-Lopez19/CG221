@@ -1,0 +1,18 @@
+<!doctype html>
+<html>  
+  <head>
+    <meta charset="utf-8">      
+    <title>My Favorite Internet 4</title>      
+    <link rel="stylesheet" type="text/css" href="style.css">
+   </head>
+   <body>
+      <header>      
+      <h1><ahref="index.html">Design &amp; Authoring for Interactive Media</a></h1>
+      </header>
+      <h2>My Favorite Internet 3</h2>
+      <h3><a href="http://www.drawastickman.com/">StickMan</a><h3>
+      <p></p>
+      <h3><a href="">Coffee</a><h3>   
+      <p></p>
+   </body>
+</html>
