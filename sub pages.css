@@ -1,0 +1,22 @@
+body{
+font-family: fantasy;
+font-weight: normal;
+font-size: 1rem
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+h1 {
+  color: #3dafaf;
+}
+img {
+    max-width: 100%;
+}
+.gallery-item {
+    width: 20%;
+    display: inline-block;
+    margin: 1rem;
+    border-bottom: 2px solid #58c7c6;
+    background-color: #c3c3c3;
+}
