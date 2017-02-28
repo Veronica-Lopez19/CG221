@@ -14,13 +14,6 @@ img {
     max-width: 100%;
 }
 gallery-item {
-    width: 20%;
-    display: inline-block;
-    margin: 1rem;
-    border-bottom: 2px solid #58c7c6;
-    background-color: #5B85AA;
-}
-gallery-item {
     background: #000;
     width: 20%;
     height: 300px;
