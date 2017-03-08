@@ -148,6 +148,21 @@ body {
   top: 140px;
   left: 75px;
 }
+.arrow{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    top:140px;
+    left: 75px; 
+  }
+
+  to {
+    top: 140;
+    right: 75px;
+  }
 .arrow-in-quiver:first-of-type {
   position: absolute;
   left: 26px;
