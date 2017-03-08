@@ -156,6 +156,23 @@ body {
   top: 140px;
   left: 75px;
 }
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-right: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 .arrow-in-quiver:first-of-type {
   position: absolute;
   left: 26px;
