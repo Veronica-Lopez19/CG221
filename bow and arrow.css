@@ -168,7 +168,7 @@ background: #8c6633;
 clip-path: polygon(0 40%, 83% 40%, 77% 34%, 100% 41%, 76% 51%, 83% 43%, 0 43%);
 }
 .arrow:hover{
-  transform: translate(1000px,0px);
+  transform: translate(358%,0px);
 }
 /*---------------------------arrow ends-----------------------------*/
 .dart-board {
