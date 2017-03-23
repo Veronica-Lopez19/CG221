@@ -1,4 +1,4 @@
-<style type="text/css">
+<style>
 
   body {
     margin:0;
@@ -8,15 +8,30 @@
   }
 
   #header {
-    background: #ccc;
-    height: 100px;
+    background: #1152b2;
+    height: 200px;
   }
 
-  #header h1 {
+  #header
+h1 {
     margin: 0;
     padding-top: 15px;
   }
-
+h2{
+    position: absolute;
+    left: 79px;
+    top: 99px;
+    color:#f2ecd2
+    }
+    img {
+  	max-width: 100%;
+}
+h3{
+    color: #ffffff
+}
+h4{
+  color: #ffffff
+}
   main {
     padding-bottom: 10010px;
     margin-bottom: -10000px;
@@ -30,13 +45,13 @@
     float: left;
     width: 230px;
     margin-left: -100%;
-    background: #eee;
+    background: #8aa3cc;
   }
 
   #footer {
     clear: left;
     width: 100%;
-    background: #ccc;
+    background: #123051;
     text-align: center;
     padding: 4px 0;
   }
@@ -55,7 +70,10 @@
   }
 
   p {
-    color: #555;
+    color: #ffffff;
+    position: absolute;
+    left: 76px;
+    top: 0px;
   }
 
   nav ul {
