@@ -1,0 +1,21 @@
+<form>
+    <div>
+        <label>Donate Cookies for Cinimini</label>
+        <input type="hidden" name="on0" value="Donate Cookies for Cinimini">
+        <select name="os0">
+            <option value="no">No</option>
+            <option value="one">Person One</option>
+            <option value="two">Person Two</option>
+            <option value="three">Person Three</option>
+            <option value="four">Person Four</option>
+        </select>
+    </div>
+
+    <div class="submit">
+        <input type="submit" value="Donate">
+    </div>
+
+    <div>
+        [I]PP hidden default code here[/I]
+    </div>
+</form>
