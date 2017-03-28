@@ -8,7 +8,7 @@
   }
 
   #header {
-    background: #1152b2;
+    background: #027516;
     height: 200px;
   }
 
@@ -45,13 +45,13 @@ h4{
     float: left;
     width: 230px;
     margin-left: -100%;
-    background: #8aa3cc;
+    background: #afd6b6;
   }
 
   #footer {
     clear: left;
     width: 100%;
-    background: #123051;
+    background: #023a0b;
     text-align: center;
     padding: 4px 0;
   }
@@ -85,8 +85,7 @@ h4{
   nav ul a {
     color: darkgreen;
     text-decoration: none;
-}
-
+  }
   a.button {
       -webkit-appearance: button;
       -moz-appearance: button;
@@ -105,5 +104,4 @@ h4{
     margin: 4px 2px;
     cursor: pointer;
 }
-
 </style>
