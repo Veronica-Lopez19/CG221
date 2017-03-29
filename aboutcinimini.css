@@ -8,7 +8,7 @@
   }
 
   #header {
-    background: #a51106;
+    background: #1152b2;
     height: 200px;
   }
 
@@ -45,13 +45,13 @@ h4{
     float: left;
     width: 230px;
     margin-left: -100%;
-    background: #e59185;
+    background: #8aa3cc;
   }
 
   #footer {
     clear: left;
     width: 100%;
-    background: #63150f;
+    background: #123051;
     text-align: center;
     padding: 4px 0;
   }
@@ -69,6 +69,13 @@ h4{
     margin-top: 0;
   }
 
+  p {
+    color: #ffffff;
+    position: absolute;
+    left: 76px;
+    top: 0px;
+  }
+
   nav ul {
     list-style-type: none;
     margin: 0;
@@ -78,7 +85,8 @@ h4{
   nav ul a {
     color: darkgreen;
     text-decoration: none;
-  }
+}
+
   a.button {
       -webkit-appearance: button;
       -moz-appearance: button;
@@ -96,5 +104,6 @@ h4{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-  }
+}
+
 </style>
