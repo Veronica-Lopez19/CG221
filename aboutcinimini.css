@@ -105,5 +105,7 @@ h4{
     margin: 4px 2px;
     cursor: pointer;
 }
-
+.img-circle {
+    border-radius: 50%;
+}
 </style>
