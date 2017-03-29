@@ -8,7 +8,7 @@
   }
 
   #header {
-    background: #1152b2;
+    background: #8c0202;
     height: 200px;
   }
 
@@ -45,13 +45,13 @@ h4{
     float: left;
     width: 230px;
     margin-left: -100%;
-    background: #8aa3cc;
+    background: #e59185;
   }
 
   #footer {
     clear: left;
     width: 100%;
-    background: #123051;
+    background: #630202;
     text-align: center;
     padding: 4px 0;
   }
