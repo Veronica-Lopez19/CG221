@@ -3,5 +3,8 @@ $(document).ready(function(){
   $('.main-container').click(function(){
     $('.arrow').animate({left: '420%'});
   });
-
+  //$("#keyboard").keypress(function(){
+ //$("reset")
+  });
+ 
 });
