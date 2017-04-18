@@ -4,7 +4,7 @@ $(document).ready(function(){
     $('.arrow').animate({left: '420%'});
   });
 $(window).keypress(function (e) {
-  if (e.keyCode === 0 || e.keyCode === 32) {
+  if (e.charCode === 32.) {
     e.preventDefault()
     console.log('Space pressed')
   }
