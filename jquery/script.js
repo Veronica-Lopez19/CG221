@@ -3,8 +3,8 @@ $(document).ready(function(){
   $('.main-container').click(function(){
     $('.arrow').animate({left: '420%'});
   });
-$(window).keypress(function (e) {
-  if (keyCode === 32) {
+  $(window).keypress(function (e) {
+  if (e.keyCode === '32') {
     e.preventDefault()
     console.log('Space pressed')
   }
