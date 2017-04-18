@@ -11,7 +11,7 @@ $(document).ready(function(){
 //});
    $(window).keypress(function(e) {
     if (e.keyCode == '32') {
-      e.preventDefault(.arrow)
+      e.preventDefault('.arrow')
       console.log('Space')
 
         }
