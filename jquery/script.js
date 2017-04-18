@@ -9,7 +9,7 @@ $(document).ready(function(){
    // console.log('Space pressed')
   //}
 //});
-   $(document).keydown(function(e) {
+   $(document).keypress(function(e) {
     if (e.keyCode == '32') {
         alert('space');
         }
