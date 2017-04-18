@@ -8,5 +8,5 @@ $(window).keypress(function (e) {
     e.preventDefault()
     console.log('Space pressed')
   }
-})
+});
 });
