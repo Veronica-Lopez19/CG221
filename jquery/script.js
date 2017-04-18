@@ -9,9 +9,9 @@ $(document).ready(function(){
    // console.log('Space pressed')
   //}
 //});
-   $(document).keypress(function(e) {
+   $(window).keypress(function(e) {
     if (e.keyCode == '32') {
-      e.preventDefault()
+      e.preventDefault(.arrow)
       console.log('Space')
 
         }
