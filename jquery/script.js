@@ -16,7 +16,7 @@ $(document).ready(function(){
      // console.log('Space pressed')
  $(document).keydown(function(e) {
           if (e.keyCode == '32') {
-            alert('space')
+            $(',arrow').fadeOut(2000);
         }
        });
 });
