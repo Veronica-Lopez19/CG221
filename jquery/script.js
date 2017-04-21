@@ -9,12 +9,14 @@ $(document).ready(function(){
    // console.log('Space pressed')
   //}
 //});
-   $('.main-container').keypress(function(e) {
-    if (e.keyCode == '32') {
-        $('.arrow').css.load("animatearrow.css");
+  //$(window).keypress(function(e) {
+   // if (e.keyCode == '32') {
+       // $('.arrow').css.load("animatearrow.css");
       // e.preventDefault('animatearrow.html')
      // console.log('Space pressed')
-
+ $(document).keydown(function(e) {
+          if (e.keyCode == '32') {
+            alert('space')
         }
        });
 });
