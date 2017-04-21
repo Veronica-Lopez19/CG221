@@ -9,10 +9,11 @@ $(document).ready(function(){
    // console.log('Space pressed')
   //}
 //});
-   $(window).keypress(function(e) {
+   $('.main-container').keypress(function(e) {
     if (e.keyCode == '32') {
-      e.preventDefault('animatearrow.html')
-      console.log('Space pressed')
+        $('.arrow').load("");
+      // e.preventDefault('animatearrow.html')
+     // console.log('Space pressed')
 
         }
        });
