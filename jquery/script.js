@@ -11,7 +11,7 @@ $(document).ready(function(){
 //});
    $('.main-container').keypress(function(e) {
     if (e.keyCode == '32') {
-        $('.arrow').load("");
+        $('.arrow').css.load("animatearrow.css");
       // e.preventDefault('animatearrow.html')
      // console.log('Space pressed')
 
