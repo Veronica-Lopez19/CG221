@@ -13,6 +13,7 @@ function draw() {
 
   fill(r, mouseY, b);
   ellipse(mouseX, mouseY, party, party);
-  rect(200, 200, party*2, party*3);
-  line(mouseX, mouseY, mouseX + 100, mouseY + 100);
+  push()
+  
+
 }
