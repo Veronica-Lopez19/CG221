@@ -10,11 +10,6 @@ function setup() {
 function draw() {
   //make my canvas
   createCanvas(windowWidth, windowHeight);
-  if(mouseIsPressed){
-    background('#ff9999');
-  } else {
-    background('#9999ff');
-  }
 
   fill(r, mouseY, b);
   ellipse(mouseX, mouseY, party, party);
