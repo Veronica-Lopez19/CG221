@@ -16,7 +16,6 @@ function draw() {
   ellipse(mouseX, mouseY, party, party);
   rec(60,60,60,60)
   ellipse.displace(rec)
-  
 } 
 function Jitter() {
   this.x = random(width);
