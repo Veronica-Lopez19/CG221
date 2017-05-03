@@ -1,34 +1,27 @@
-var party = 60;
-var r = 30;
-var g = 100;
-var b = 200;
-var shape;
+var cloud, circle;
 
 function setup() {
-createCanvas(800, 600);
-shape = new Jitter();
+  createCanvas(windowWidth, windowHeight);  
+ 
+  cloud = createSprite(600, 200);
+
+  circle = createSprite(600, 200);
+ 
+  
+  
 }
+
 function draw() {
-  background('#8e9aad')
-  shape.move();
-  shape.display();
-  fill(r, mouseY, b);
-  ellipse(mouseX, mouseY, party, party);
-  rec(60,60,60,60)
-  ellipse.displace(rec)
-} 
-function Jitter() {
-  this.x = random(width);
-  this.y = random(height);
-  this.diameter = random(10, 30);
-  this.speed = 1;
+  background('#8e9aad');  
+  
+  circle.position.x = mouseX;
+  circle.position.y = mouseY;
 
-  this.move = function() {
-    this.x += random(-this.speed, this.speed);
-    this.y += random(-this.speed, this.speed);
-  };
-
-  this.display = function() {
-    rec(this.x, this.y, 10, 10);
-  }
-};
+  circle.displace(cloud);
+    
+  //if debug is set to true bounding boxes, centers and depths are visualized
+  circle.debug = mouseIsPressed;
+  cloud.debug = mouseIsPressed;
+  
+  drawSprites();
+}
