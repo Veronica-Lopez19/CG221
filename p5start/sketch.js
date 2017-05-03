@@ -19,7 +19,6 @@ function draw() {
 
   circle.displace(cloud);
     
-  //if debug is set to true bounding boxes, centers and depths are visualized
   circle.debug = mouseIsPressed;
   cloud.debug = mouseIsPressed;
   
