@@ -9,6 +9,7 @@ createCanvas(800, 600);
 shape = new Jitter();
 }
 function draw() {
+  background('#8e9aad')
   shape.move();
   shape.display();
   fill(r, mouseY, b);
