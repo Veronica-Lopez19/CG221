@@ -3,10 +3,9 @@ var r = 30;
 var g = 100;
 var b = 200;
 var shape;
-function setup() {
 
-  //changed background color to black
-createCanvas(windowWidth, windowHeight);
+function setup() {
+createCanvas(800, 600);
 shape = new Jitter();
 }
 function draw() {
