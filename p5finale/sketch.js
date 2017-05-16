@@ -14,12 +14,12 @@ function preload() {
 
 function setup() {
   createCanvas(1000, 800);
-
+  background('#a4b8d8');
 }
 
 function draw() {
-  //background('#a4b8d8');
-  background('back2.png')
+  background('#a4b8d8');
+  //background('back2.png')
 	
   image(img,mouseX-50, mouseY-80, img.width/10, img.height/10);
 
