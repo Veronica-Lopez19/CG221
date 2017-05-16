@@ -21,6 +21,8 @@ function draw() {
   background('#a4b8d8');
 
   image(img,mouseX-50, mouseY-80, img.width/10, img.height/10);
+	 if (mouseX > windowWidth || mouseX < 0)
+	 if (mouseY > windowHeight || MouseY < 0)
 
   image(img2, x, y, img.width/20, img.height/25);
 
