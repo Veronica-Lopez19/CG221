@@ -21,8 +21,9 @@ function draw() {
   background('#a4b8d8');
 
   image(img,mouseX-50, mouseY-80, img.width/10, img.height/10);
-	
+
   image(img2, x, y, img.width/20, img.height/25);
+
 
     x = x + xspeed;
 
@@ -33,13 +34,11 @@ function draw() {
   	//bouncing veritcally
   	y = y + yspeed;
 
-    if (y > windowHeight || y < 0) {
+  	if (y > windowHeight || y < 0) {
 	 	  yspeed = -yspeed;
     }
-   if(x>mouseX-50 && x<mouseX+50 && y>mouseY-50 && y<mouseY+50){
+    if(x>mouseX-50 && x<mouseX+50 && y>mouseY-50 && y<mouseY+50){
       alert('game over');
     }
-
-
 
 }
