@@ -36,7 +36,7 @@ function draw() {
     if (y > windowHeight || y < 0) {
 	 	  yspeed = -yspeed;
     }
-    if(x>mouseX-50 && x<mouseX+50 && y>mouseY-50 && y<mouseY+50){
+   if(x>mouseX-50 && x<mouseX+50 && y>mouseY-50 && y<mouseY+50){
       alert('game over');
     }
 
