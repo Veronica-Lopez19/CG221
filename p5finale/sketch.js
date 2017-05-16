@@ -19,7 +19,7 @@ function setup() {
 
 function draw() {
   background('#a4b8d8');
-  //background('back2.png')
+  background('back2')
 	
   image(img,mouseX-50, mouseY-80, img.width/10, img.height/10);
 
