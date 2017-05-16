@@ -4,8 +4,8 @@ var img3;
 var img4;
 var x = 180;
 var y = 180;
-var xspeed = 15;
-var yspeed = 14;
+var xspeed = 20;
+var yspeed = 18;
 function preload() {
   img = loadImage("ninja.png");
   img2 = loadImage("shuriken.png");
