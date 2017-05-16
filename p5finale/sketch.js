@@ -41,4 +41,6 @@ function draw() {
       alert('game over');
     }
 
+
+
 }
